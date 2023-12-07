@@ -6,10 +6,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textVieww"
         android:layout_width="223dp"
         android:layout_height="42dp"
-        android:text="About Hotel"
+        android:text="@string/about_hotel"
         android:textStyle="bold"
         android:textColor="@color/black"
         android:textSize="30sp"
@@ -24,7 +24,7 @@
         android:id="@+id/textView"
         android:layout_width="119dp"
         android:layout_height="36dp"
-        android:text="3rd Line"
+        android:text="@string/_3rd_line"
 
         android:textColor="#888383"
         android:textSize="22sp"
@@ -39,7 +39,7 @@
         android:layout_width="150dp"
         android:layout_height="36dp"
         android:layout_marginTop="16dp"
-        android:text="Paid Wi-Fi in the lobby"
+        android:text="@string/paid_wi_fi_in_the_lobby"
         android:textColor="#8F8E8E"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,7 +53,7 @@
         android:layout_width="150dp"
         android:layout_height="36dp"
         android:layout_marginTop="16dp"
-        android:text="30 km away from the airport"
+        android:text="@string/_30_km_away_from_the_airport"
         android:textColor="#8F8E8E"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,7 +67,7 @@
         android:layout_width="150dp"
         android:layout_height="36dp"
         android:layout_marginTop="16dp"
-        android:text="1 km awayy from the beach"
+        android:text="@string/_1_km_awayy_from_the_beach"
         android:textColor="#8F8E8E"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -90,28 +90,29 @@
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.298" />
+        app:layout_constraintVertical_bias="0.277" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
-        android:text="Самое необходимое"
+        android:text="@string/ftyugf"
         android:textColor="#8F8E8E"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.474" />
+        app:layout_constraintVertical_bias="0.439" />
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="170dp"
         android:layout_height="34dp"
         android:layout_marginStart="68dp"
-        android:text="Comfortability"
+        android:text="@string/comfortability"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -120,20 +121,24 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.426" />
+        app:layout_constraintVertical_bias="0.406" />
 
-     <ImageView
-        android:layout_width="53dp"
-        android:layout_height="47dp"
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="35dp"
         android:background="@drawable/ticksquare"
-        tools:layout_editor_absoluteX="15dp"
-        tools:layout_editor_absoluteY="310dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.406" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
     
     
     

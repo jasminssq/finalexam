@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">finalexam</string>
     <string name="vip_class_hotel_with_its_own_golf_courses_high_level_of_service_we_recommend_it_for_a_respectable_holiday_the_hotel_accepts_guests_over_18_years_of_age">VIP-class hotel with its own golf courses. High level of service. We recommend it for a respectable holiday. The hotel accepts guests over 18 years of age!</string>
+    <string name="ftyugf">Самое необходимое</string>
+    <string name="comfortability">Comfortability</string>
+    <string name="paid_wi_fi_in_the_lobby">Paid Wi-Fi in the lobby</string>
+    <string name="_30_km_away_from_the_airport">30 km away from the airport</string>
+    <string name="_1_km_awayy_from_the_beach">1 km awayy from the beach</string>
+    <string name="about_hotel">About Hotel</string>
+    <string name="_3rd_line">3rd Line</string>
 </resources>
